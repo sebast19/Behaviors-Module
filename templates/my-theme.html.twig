@@ -1,0 +1,94 @@
+{{ attach_library('behaviors_module/my-libraries') }}
+
+<div class="container">
+	
+	<!-- Behavior number 1 -->
+	<h2>Behaviors Examples:  #1</h2>
+	<h3>Show and hide a text when button is clicked.</h3>
+
+	<div class="container-wrapper">
+		<button class="do-event">Show/Hide Text</button>
+		<h2 style="display: none;">This text only appears once the button is clicked.</h2>
+	</div>	
+
+	<br>
+	<hr>
+	
+	<!-- Behavior number 2 -->
+	<h2>Behaviors Examples:  #2</h2>
+	<h3>Change the width and height of image when change the option of the select.</h3>
+
+	<div class="container-wrapper2">
+
+		<select class="select-size">
+			<option value="" selected="selected">- Default -</option>
+			<option value="small">Small</option>
+			<option value="medium">Medium</option>
+			<option value="large">Large</option>
+		</select>
+	
+		<br>
+		<p>Small: (300 x 250), Medium: (580 x 400), Large: (940 x 530)</p>
+		
+		<img src="{{ module_path }}/img/nature.jpg" alt="Image Nature" class="size-image">
+
+	</div>
+
+	<br>
+	<hr>
+	
+	<!-- Behavior number 3 -->
+	<h2>Behaviors Examples:  #3</h2>
+	<h3>A sildeshow of images with buttons for previous or next</h3>
+
+		<div class="slideshow">
+			<ul class="slider">
+
+				<li>
+					<img src="{{ module_path }}/img/img1.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum dolor 1</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit labore, voluptate consequuntur necessitatibus. Officiis nisi, praesentium earum voluptatum repellendus ex et. A officiis, atque voluptates accusamus totam ut ratione eligendi</p>
+					</section>
+				</li>
+
+				<li>
+					<img src="{{ module_path }}/img/img2.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum dolor 2</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit labore, voluptate consequuntur necessitatibus. Officiis nisi, praesentium earum voluptatum repellendus ex et. A officiis, atque voluptates accusamus totam ut ratione eligendi</p>
+					</section>
+				</li>
+
+				<li>
+					<img src="{{ module_path }}/img/img3.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum dolor 3</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit labore, voluptate consequuntur necessitatibus. Officiis nisi, praesentium earum voluptatum repellendus ex et. A officiis, atque voluptates accusamus totam ut ratione eligendi</p>
+					</section>
+				</li>
+
+				<li>
+					<img src="{{ module_path }}/img/img4.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum dolor 4</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit labore, voluptate consequuntur necessitatibus. Officiis nisi, praesentium earum voluptatum repellendus ex et. A officiis, atque voluptates accusamus totam ut ratione eligendi</p>
+					</section>
+				</li>
+
+			</ul>
+
+			<ol class="pagination">
+			</ol>
+
+			<div class="left">
+				<span>&#10094;</span>
+			</div>
+
+			<div class="right">
+				<span>&#10095;</span>
+			</div>
+
+		</div>  
+
+</div>

@@ -1,0 +1,7 @@
+behaviors_module.content:
+  path: '/behaviors'
+  defaults:
+    _controller: 'Drupal\behaviors_module\Controller\BehaviorsController::content'
+    _title: 'Examples of Behaviors'
+  requirements:
+    _permission: 'access content'  

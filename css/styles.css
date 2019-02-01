@@ -1,0 +1,126 @@
+.container > h2, .container  h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.container .container-wrapper > h2 {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 50%;
+	background-color: #858585;
+	color: #fff;
+	padding:  15px 5px;
+}
+
+.container  .do-event, .container .select-size {
+	width: 200px;
+	display:  block;
+	margin:  0 auto;
+	background-color: #cd6e2e;
+	color: #fff;
+	border: 0;
+	padding:  10px;
+	text-align: center;
+} 
+
+.container-wrapper2 > img {
+	margin-top: 20px;
+	transition: all .4s ease;
+}
+
+.container-wrapper2 > p {
+	text-align: center;
+	font-size: 16px;
+}
+
+/* Styles for slideshow */
+
+
+.slideshow ol, .slideshow ul {
+	list-style: none;
+}
+
+.slideshow {
+	width: 100%;
+	position: relative;
+}
+
+.slider li, ul {
+	width: 100%;
+	transition: all 1s ease;
+}
+
+.slider li img {
+	width: 100%;
+	max-height: 530px;
+}
+
+.slider .caption {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	left: -20px;
+	padding: 15px 50px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.slider .caption h1 {
+	font-size: 50px;
+	color: #fff;
+	background-color: transparent;
+	border: 0;
+}
+
+.slider .caption p {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #fff;
+	background-color: transparent;
+	border: 0;
+}
+
+.pagination {
+	position: absolute;
+	top: 100%;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	font-size: 40px;
+	z-index: 3;
+}
+
+.pagination li {
+	color: #858585;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.left, .right {
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: 35px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.left {
+	left: 20px;
+}
+
+.right {
+	right: 10px;
+}

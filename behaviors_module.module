@@ -1,0 +1,26 @@
+<?php 
+
+/**
+ * Implements hook_theme()
+ */
+function behaviors_module_theme($existing, $type, $theme, $path) {
+
+	return [
+		'my_theme' => [
+			'variables' => [	],
+		],
+	];
+
+}
+
+/**
+ * Implements hook_preprocess()
+ */
+function behaviors_module_preprocess(&$variables, $hook) {
+
+  $module_handler = Drupal::service('module_handler');
+  $path = $module_handler->getModule('behaviors_module')->getPath();
+
+  $variables['module_path'] = $path;
+
+}

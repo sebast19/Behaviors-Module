@@ -1,0 +1,4 @@
+name: Behaviors Examples
+description: A module to try behaviors js in drupal 8
+type: module 
+core: 8.x

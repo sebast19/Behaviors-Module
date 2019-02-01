@@ -1,0 +1,12 @@
+my-libraries:
+  css:
+    theme:
+      css/style.css: {}
+      css/styles.css: {}
+  js:
+    js/examples.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
